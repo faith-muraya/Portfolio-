@@ -1,0 +1,62 @@
+body{
+    background-color: #8dc6ff;
+}
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ } 
+ .logo{
+    color: black;
+    font-family: 'Lobster', cursive;
+    margin-left: 20px;
+    font-size: 25px;
+ }
+ ul{
+    display: flex;
+    margin-right: 20px; 
+ }
+ li{
+    list-style: none;
+    padding: 10px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+ }
+ a:hover{
+    color: wh;
+    text-decoration: underline;
+ }
+.content{
+    display: flex;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.image img{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    margin-left: 40px;
+}
+.text h1{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.text p{
+    color: black;
+    word-spacing: 10px;
+    font-size: 22px;
+}
+
+  
