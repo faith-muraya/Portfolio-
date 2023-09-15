@@ -125,3 +125,40 @@ body{
   .signup-link a {
     text-decoration: underline;
   }
+
+  .section1 {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 180px;
+    font-size: 33px;
+    display: flex;
+    text-align: center;
+    padding: 120px;
+    font-family: 'Kalam', cursive;
+
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 100px;
+    
+  }
+
+  .me {
+    font-size: 30;
+
+  }
+
+  .me:hover {
+    color: #4F46E5;
+  }
+
+  .section2 {
+    margin-bottom: 50px;
+  }
